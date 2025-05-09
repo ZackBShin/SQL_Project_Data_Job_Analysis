@@ -20,7 +20,8 @@ LEFT JOIN
 --Here we are filtering our tables to only include the job postings that are remote and are for data analyst roles
 WHERE
     job_title_short = 'Data Analyst' AND
-    job_location = 'Philadelphia, PA'  AND
+    --job_location = 'Philadelphia, PA' AND
+    job_location = 'Anywhere'  AND
     salary_year_avg IS NOT NULL
 ORDER BY salary_year_avg DESC
 LIMIT 10;

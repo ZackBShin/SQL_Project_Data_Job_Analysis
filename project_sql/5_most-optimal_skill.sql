@@ -47,4 +47,4 @@ WHERE
 ORDER BY 
     avg_salary DESC,
     demand_count DESC
-LIMIT 50;
+LIMIT 16;
